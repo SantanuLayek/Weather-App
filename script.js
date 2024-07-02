@@ -21,8 +21,8 @@ let weather = {
         document.querySelector('.pressure').innerText = "Pressure: "+pressure+" Pa";
         document.querySelector('.wind').innerText = "Wind Speed: "+speed+" km/h";
         document.querySelector('.card').classList.remove('loading');
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/1920x1080/?" + name + "')";
-        document.body.style.backgroundSize = "cover";
+        // document.body.style.backgroundImage = "url('https://source.unsplash.com/1920x1080/?" + name + "')";
+        // document.body.style.backgroundSize = "cover";
     },
     search: function() {
         this.fetchweather(document.querySelector("#searchbar").value);
