@@ -9,7 +9,7 @@
 html, body{
     height: 100vh;
     background-color: gray;
-    background-image: url('https://source.unsplash.com/1920x1080/?Landscape');
+    /* background-image: url('https://source.unsplash.com/1920x1080/?Landscape'); */
     background-size: cover;
     /* background-image: url('https://api.pexels.com/videos/'); */
 }
